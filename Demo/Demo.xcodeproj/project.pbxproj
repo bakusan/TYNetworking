@@ -15,6 +15,7 @@
 		3F0486461FFF4E5300867424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0486451FFF4E5300867424 /* main.m */; };
 		3F0486501FFF4E5300867424 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04864F1FFF4E5300867424 /* DemoTests.m */; };
 		3F04865B1FFF4E5300867424 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04865A1FFF4E5300867424 /* DemoUITests.m */; };
+		3FF697241FFF5E0C008B68B0 /* TYNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF697251FFF5E0C008B68B0 /* TYNetworking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3F3404851FFF516700D783E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3F0486331FFF4E5300867424 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0486361FFF4E5300867424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,7 @@
 		3F0486561FFF4E5300867424 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F04865A1FFF4E5300867424 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		3F04865C1FFF4E5300867424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF697251FFF5E0C008B68B0 /* TYNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TYNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF697241FFF5E0C008B68B0 /* TYNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,7 @@
 				3F04864E1FFF4E5300867424 /* DemoTests */,
 				3F0486591FFF4E5300867424 /* DemoUITests */,
 				3F0486341FFF4E5300867424 /* Products */,
+				3F3404821FFF510000D783E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +148,14 @@
 			path = DemoUITests;
 			sourceTree = "<group>";
 		};
+		3F3404821FFF510000D783E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FF697251FFF5E0C008B68B0 /* TYNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +166,7 @@
 				3F04862F1FFF4E5300867424 /* Sources */,
 				3F0486301FFF4E5300867424 /* Frameworks */,
 				3F0486311FFF4E5300867424 /* Resources */,
+				3F3404851FFF516700D783E6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
