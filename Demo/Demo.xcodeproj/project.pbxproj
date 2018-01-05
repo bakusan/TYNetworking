@@ -16,6 +16,7 @@
 		3F0486501FFF4E5300867424 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04864F1FFF4E5300867424 /* DemoTests.m */; };
 		3F04865B1FFF4E5300867424 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04865A1FFF4E5300867424 /* DemoUITests.m */; };
 		3FF697241FFF5E0C008B68B0 /* TYNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF697251FFF5E0C008B68B0 /* TYNetworking.framework */; };
+		3FF697381FFF66AA008B68B0 /* DemoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF697371FFF66AA008B68B0 /* DemoService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		3F04865A1FFF4E5300867424 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		3F04865C1FFF4E5300867424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FF697251FFF5E0C008B68B0 /* TYNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TYNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF697361FFF66AA008B68B0 /* DemoService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoService.h; sourceTree = "<group>"; };
+		3FF697371FFF66AA008B68B0 /* DemoService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				3F0486411FFF4E5300867424 /* LaunchScreen.storyboard */,
 				3F0486441FFF4E5300867424 /* Info.plist */,
 				3F0486451FFF4E5300867424 /* main.m */,
+				3FF697361FFF66AA008B68B0 /* DemoService.h */,
+				3FF697371FFF66AA008B68B0 /* DemoService.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 			files = (
 				3F04863B1FFF4E5300867424 /* ViewController.m in Sources */,
 				3F0486461FFF4E5300867424 /* main.m in Sources */,
+				3FF697381FFF66AA008B68B0 /* DemoService.m in Sources */,
 				3F0486381FFF4E5300867424 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

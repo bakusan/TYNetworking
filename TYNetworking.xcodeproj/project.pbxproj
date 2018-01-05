@@ -10,6 +10,10 @@
 		3F0485E41FFF46FA00867424 /* TYNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0485DA1FFF46FA00867424 /* TYNetworking.framework */; };
 		3F0485E91FFF46FA00867424 /* TYNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0485E81FFF46FA00867424 /* TYNetworkingTests.m */; };
 		3F0485EB1FFF46FA00867424 /* TYNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0485DD1FFF46FA00867424 /* TYNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF697301FFF65B4008B68B0 /* TYUploadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6972A1FFF65B4008B68B0 /* TYUploadFile.m */; };
+		3FF697311FFF65B4008B68B0 /* TYUploadFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF6972B1FFF65B4008B68B0 /* TYUploadFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF697341FFF65B4008B68B0 /* TFSessionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF6972E1FFF65B4008B68B0 /* TFSessionTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF697351FFF65B4008B68B0 /* TFSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6972F1FFF65B4008B68B0 /* TFSessionTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		3F0485E31FFF46FA00867424 /* TYNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0485E81FFF46FA00867424 /* TYNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNetworkingTests.m; sourceTree = "<group>"; };
 		3F0485EA1FFF46FA00867424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF6972A1FFF65B4008B68B0 /* TYUploadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYUploadFile.m; sourceTree = "<group>"; };
+		3FF6972B1FFF65B4008B68B0 /* TYUploadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYUploadFile.h; sourceTree = "<group>"; };
+		3FF6972E1FFF65B4008B68B0 /* TFSessionTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSessionTask.h; sourceTree = "<group>"; };
+		3FF6972F1FFF65B4008B68B0 /* TFSessionTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSessionTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,9 @@
 		3F0485DC1FFF46FA00867424 /* TYNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				3FF697291FFF65B4008B68B0 /* Model */,
+				3FF6972E1FFF65B4008B68B0 /* TFSessionTask.h */,
+				3FF6972F1FFF65B4008B68B0 /* TFSessionTask.m */,
 				3F0485DD1FFF46FA00867424 /* TYNetworking.h */,
 				3F0485DE1FFF46FA00867424 /* Info.plist */,
 			);
@@ -86,6 +97,15 @@
 			path = TYNetworkingTests;
 			sourceTree = "<group>";
 		};
+		3FF697291FFF65B4008B68B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6972B1FFF65B4008B68B0 /* TYUploadFile.h */,
+				3FF6972A1FFF65B4008B68B0 /* TYUploadFile.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +113,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF697311FFF65B4008B68B0 /* TYUploadFile.h in Headers */,
+				3FF697341FFF65B4008B68B0 /* TFSessionTask.h in Headers */,
 				3F0485EB1FFF46FA00867424 /* TYNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF697351FFF65B4008B68B0 /* TFSessionTask.m in Sources */,
+				3FF697301FFF65B4008B68B0 /* TYUploadFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

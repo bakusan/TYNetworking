@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 //! Project version number for TYNetworking.
 FOUNDATION_EXPORT double TYNetworkingVersionNumber;
 
@@ -16,4 +17,6 @@ FOUNDATION_EXPORT const unsigned char TYNetworkingVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TYNetworking/PublicHeader.h>
 
+#import "TFSessionTask.h"
+#import "TYUploadFile.h"
 

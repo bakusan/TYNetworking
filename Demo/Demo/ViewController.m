@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DemoService.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [DemoService testConnect];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
